@@ -393,12 +393,8 @@ svg {
   height: 5%;
 }
 
-.footer-text-container {
-  letter-spacing: 10px;
-}
-
 .footer-container a {
-  letter-spacing: 10px;
+  letter-spacing: 4px;
   text-decoration: none;
   transition: letter-spacing 1s;
 }
@@ -495,7 +491,7 @@ svg {
 
   .footer-container a {
     font-size: 70%;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 }
 
@@ -729,7 +725,7 @@ svg {
   }
   
   .mb-ui-gyaan{
-    color: var(--dark-2);
+    color: #09608b;
   }
 
 
@@ -768,7 +764,8 @@ svg {
 
   .mb-footer-sub-container a {
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 200;
   }
 
   .mb-footer-sub-container a:hover {
