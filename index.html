@@ -17,6 +17,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="Js/script.js" defer></script>
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="images/favicon.ico" />
@@ -34,7 +37,7 @@
         <!-- nav-menu type kuch -->
         <div class="top-container">
           <!-- <div class="logo-container"><img src="images/svgs/ma-logo-dark-5px-radius.svg" alt="ma-logo" srcset=""></div> -->
-          <div class="logo-container">Anc.</div>
+          <div class="logo-container">Ans.</div>
           <div class="dlMode-container" style="display: none;">
             <img src="images/svgs/brightness.svg" alt="light-dark" srcset="" />
           </div>
@@ -75,8 +78,8 @@
                 <img src="images/dp-500w.png" alt="profile" srcset="" />
               </div>
 
-              <div class="tagline-container">
-                A tech and design enthusiast
+              <div class="tagline-container" id="typedd">
+
               </div>
             </div>
 
@@ -112,27 +115,27 @@
           <div class="c-lower-section">
             <div class="sm-profiles">
               <div class="sm-profile">
-                <a href="https://twitter.com/MuhammadAnsRaza" target="_blank">
+                <a href="https://twitter.com/MuhammadAnsRaza" target="_blank" rel="noopener noreferrer" title="">
                   <img src="images/svgs/twitter-dark.svg" alt="sm-links" srcset="" />
                 </a>
               </div>
               <div class="sm-profile">
-                <a href="https://linkedin.com/in/mohdans" target="_blank">
+                <a href="https://linkedin.com/in/mohdans" target="_blank" rel="noopener noreferrer" title="">
                   <img src="images/svgs/linked-dark.svg" alt="sm-links" srcset="" />
                 </a>
               </div>
               <div class="sm-profile">
-                <a href="https://github.com/mohdanss" target="_blank">
+                <a href="https://github.com/mohdanss" target="_blank" rel="noopener noreferrer" title="">
                   <img src="images/svgs/github-dark.svg" alt="sm-links" srcset="" />
                 </a>
               </div>
               <div class="sm-profile">
-                <a href="https://www.behance.net/muhammadans6" target="_blank">
+                <a href="https://www.behance.net/muhammadans6" target="_blank" rel="noopener noreferrer" title="">
                   <img src="images/svgs/behance-dark.svg" alt="sm-links" srcset="" />
                 </a>
               </div>
               <div class="sm-profile">
-                <a href="https://dribbble.com/mohdans" target="_blank">
+                <a href="https://dribbble.com/mohdans" target="_blank" rel="noopener noreferrer">
                   <img src="images/svgs/dribble-dark.svg" alt="sm-links" srcset="" />
                 </a>
               </div>
@@ -140,13 +143,12 @@
 
             <div class="about-container">
               <p>
-                <span class="p-start">Muhammad Ans.</span> currently studying
-                Computer Information Technology at Punjab University, Lahore.
-                I am passionate about patterns and designs. I love to code and
-                develop new things, with adding some aesthetics to them. I 💓
-                to work with people from different backgrounds and skills, hence a
-                great way of learning new things. Always looking forward to avail new
-                opportunities and things to learn.
+                <span class="p-start">Muhammad Ans.</span> currently pursuing a degree in Computer Information
+                Technology at Punjab University, Lahore. I possess a strong interest in the field of patterns and
+                designs, and enjoy incorporating aesthetics into my coding and development work. Collaborating with
+                individuals from diverse backgrounds and skill sets is an enriching experience, and I strive to continue
+                learning from such opportunities. I am highly motivated to explore new prospects and expand my knowledge
+                base.
               </p>
             </div>
 
@@ -155,14 +157,14 @@
                 <div class="center">
                   <a href="https://drive.google.com/uc?export=download&id=1IY9mxqmt5lGw0-zAE5Us-FpR4LZkgKV3"
                     download="Muhammad_Ans_Web_Developer_Resume.pdf" style="text-decoration: none;">
-                    <button class="btn">
+                    <button class="btn" type='button' title="">
                       <svg viewBox="0 0 130 40" class="border">
                         <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                         <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                       </svg>
-                      <span>Web Dev CV</span>
+                      <span class="cvcol">Web Dev</span>
+                    </button>
                   </a>
-                  </button>
                 </div>
               </div>
 
@@ -170,12 +172,12 @@
                 <div class="center">
                   <a href="https://drive.google.com/uc?export=download&id=1LaHRBT2u_JiTn6b5XXegWm0XTz2lAGsa"
                     download="Muhammad_Ans_UX_Designer_Resume.pdf" style="text-decoration: none;">
-                    <button class="btn">
+                    <button class="btn" type='button' title="">
                       <svg viewBox="0 0 130 40" class="border">
                         <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                         <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                       </svg>
-                      <span>UI/UX CV</span>
+                      <span class="cvcol">UI/UX</span>
                     </button>
                   </a>
                 </div>
@@ -207,7 +209,7 @@
     <section id="mb-header">
       <div class="mb-header-div">
         <div class="mb-top-container">
-          <div class="mb-logo-container">Anc.</div>
+          <div class="mb-logo-container">Ans.</div>
 
           <div class="mb-dlMode-container" style="display: none;">
             <img src="images/svgs/brightness.svg" alt="light-dark" srcset="" />
@@ -221,37 +223,37 @@
         </div>
 
         <div class="mb-tagline-container">
-          <p class="mb-haiv-line">A tech and design enthusiast</p>
+          <p class="mb-haiv-line" id="#typed"></p>
         </div>
 
         <div class="mb-sm-profiles">
           <div class="mb-sm-profile">
-            <a href="https://twitter.com/MuhammadAnsRaza" target="_blank">
+            <a href="https://twitter.com/MuhammadAnsRaza" target="_blank" rel="noopener noreferrer" title="">
               <img src="images/svgs/twitter-dark.svg" alt="sm-links" srcset="" />
             </a>
           </div>
 
           <div class="mb-sm-profile">
-            <a href="https://linkedin.com/in/mohdans" target="_blank">
+            <a href="https://linkedin.com/in/mohdans" target="_blank" rel="noopener noreferrer" title="">
               <img src="images/svgs/linked-dark.svg" alt="sm-links" srcset="" />
             </a>
           </div>
 
           <div class="mb-sm-profile">
-            <a href="https://github.com/mohdanss" target="_blank">
+            <a href="https://github.com/mohdanss" target="_blank" rel="noopener noreferrer" title="">
               <img src="images/svgs/github-dark.svg" alt="sm-links" srcset="" />
             </a>
           </div>
 
           <div class="mb-sm-profile">
-            <a href="https://www.behance.net/muhammadans6" target="_blank">
+            <a href="https://www.behance.net/muhammadans6" target="_blank" rel="noopener noreferrer" title="">
               <img src="images/svgs/behance-dark.svg" alt="sm-links" srcset="" />
             </a>
           </div>
 
           <!-- </div> -->
           <div class="mb-sm-profile">
-            <a href="https://dribbble.com/mohdans" target="_blank">
+            <a href="https://dribbble.com/mohdans" target="_blank" rel="noopener noreferrer" title="">
               <img src="images/svgs/dribble-dark.svg" alt="sm-links" srcset="" />
             </a>
           </div>
@@ -259,13 +261,11 @@
 
         <div class="mb-about-container">
           <p>
-            <span class="p-start">Muhammad Ans.</span> currently studying
-            Computer Information Technology at Punjab University, Lahore.
-            I am passionate about patterns and designs. I love to code and
-            develop new things, with adding some aesthetics to them. I 💓
-            to work with people from different backgrounds and skills, hence a
-            great way of learning new things. Always looking forward to avail new
-            opportunities and things to learn.
+            <span class="p-start">Muhammad Ans.</span> currently pursuing a degree in Computer Information Technology at
+            Punjab University, Lahore. I possess a strong interest in the field of patterns and designs, and enjoy
+            incorporating aesthetics into my coding and development work. Collaborating with individuals from diverse
+            backgrounds and skill sets is an enriching experience, and I strive to continue learning from such
+            opportunities. I am highly motivated to explore new prospects and expand my knowledge base.
           </p>
         </div>
       </div>
@@ -298,8 +298,10 @@
 
         <div class="mb-web-gyaan-container">
           <p class="mb-web-gyaan">
-            I'm a full stack web developer, I preferabbly have expertise in MERN stack, along with react-django combo, I
-            also have developed websites using .NET - besides, I always try to learn new technologies.
+            As a full stack web developer, I possess expertise in MERN stack, with additional proficiency in the
+            React-Django combination. I have an unwavering commitment to constantly upgrading my skillset and staying
+            up-to-date with emerging technologies. This approach enables me to deliver innovative solutions and ensure
+            optimal performance for my clients.
           </p>
         </div>
 
@@ -313,7 +315,7 @@
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                   </svg>
-                  <span>Web Dev CV</span>
+                  <span>Web Dev</span>
                 </button>
               </a>
             </div>
@@ -351,8 +353,9 @@
 
         <div class="mb-ui-gyaan-container">
           <p class="mb-ui-gyaan">
-            Designing is my passion, i can say - yeah - quite a T-shaped designer, I prefer minimal design thus focusing more on UX
-            - a big term ;) - still learning and trying to improve my design instincts as much as possible.
+            Design is my passion and I take pride in being a T-shaped designer, proficient in various design aspects.
+            With a focus on creating minimalist designs, my primary area of expertise lies in crafting exceptional user
+            experiences.
           </p>
         </div>
 
@@ -366,7 +369,7 @@
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                   </svg>
-                  <span>UI/UX CV</span>
+                  <span>UI/UX</span>
                 </button>
               </a>
             </div>
@@ -377,13 +380,26 @@
 
     <section id="mb-footer-container">
       <div class="mb-footer-sub-container">
+        <p id="typed" style="color:aliceblue">21212</p>
         <a href="mailto:mohd.ans.riaz@gmail.com"> mohd.ans.riaz@gmail.com </a>
       </div>
     </section>
   </section>
 
-  <script src="js/script.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script> -->
+  <script>
+    var options = {
+      // catchy terms for computer science
+      strings: ['Technology', 'Design', 'Development', 'Innovation', 'Creativity', 'Problem Solving', 'Teamwork'],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: false,
+    };
+
+    var typed = new Typed('#typedd', options);
+  </script>
+
 </body>
 
 </html>
